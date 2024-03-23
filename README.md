@@ -2,6 +2,8 @@
 
 This simple Angular library integrates React components into Angular applications with ease. It is based on React [createElement](https://react.dev/reference/react/createElement) function and Angular [directives](https://angular.io/guide/attribute-directives) (as [standalone components](https://angular.io/guide/standalone-component)). See source code [here](./projects/ngx-react/src/lib/directives/react-component.directive.ts).
 
+> [!WARNING]
+> This package is experimental. There may be possible performance problems, memory leaks and similar problems. It is your responsibility to use it.
 
 ## 📦 Installation
 
