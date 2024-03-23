@@ -36,7 +36,20 @@ import { ReactComponentDirective } from '@ngeenx/ngx-react';
 })
 ```
 
-### 2. Create React Component
+### 2. Update `tsconfig.json`
+
+Add the following to your `tsconfig.json` file to allow importing `.tsx` files in Angular Project.
+
+```json
+{
+  "compilerOptions": {
+    "jsx": "react",
+    ...
+  }
+}
+```
+
+### 3. Create React Component
 
 Create a wrapper component for your React component. We will use this component to pass props to the React component.
 
@@ -71,7 +84,7 @@ const ReactApp: FC<any> = () => {
 export default ReactApp;
 ```
 
-### Basic Usage
+### 4. Import in Angular Component
 
 ```typescript
 // app.component.ts
