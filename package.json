@@ -11,9 +11,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "build": "node tools/cleanup.js && ng build ngx-react && node tools/copyAssets",
+    "package": "npm run build && npm pack ./dist/ngx-react && npm publish ./dist/ngx-react --access public",
     "prettier": "prettier --write \"./projects/**/*.{js,ts}\""
   },
   "private": false,
