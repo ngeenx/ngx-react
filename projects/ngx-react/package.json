@@ -1,6 +1,6 @@
 {
   "name": "@ngeenx/ngx-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Embed React components in Angular projects",
   "keywords": [
     "angular",
