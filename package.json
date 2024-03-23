@@ -52,6 +52,7 @@
     "@types/jasmine": "~5.1.0",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
+    "fs-extra": "^11.2.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
