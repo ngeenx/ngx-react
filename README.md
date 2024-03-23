@@ -58,8 +58,8 @@ Create a wrapper component for your React component. We will use this component 
 
 import React, { FC, useState } from 'react';
 
-const ReactApp: FC<any> = () => {
-  const [inputValue, setInputValue] = useState('');
+const ReactApp: FC<any> = ({ initialInputValue }: any) => {
+  const [inputValue, setInputValue] = useState(initialInputValue);
 
   const handleChange = (event: any) => {
     setInputValue(event.target.value);
@@ -103,6 +103,8 @@ import ReactApp from './ReactApp';
 })
 export class StandaloneComponent {
   public ReactApp: typeof ReactApp = ReactApp;
-  public props: any = {}
+  public props = {
+    initialInputValue: "Some Value"
+  }
 }
 ```
