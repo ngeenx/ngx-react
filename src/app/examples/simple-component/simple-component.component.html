@@ -1,0 +1,17 @@
+<section>
+  <h3>Simple Component Example</h3>
+
+  <div class="environments">
+    <div class="react-environment">
+      <h5>React</h5>
+
+      <div [reactComponent]="ReactApp" [props]="props"></div>
+    </div>
+
+    <div class="angular-environment">
+      <h5>Angular</h5>
+
+      {{ props | json }}
+    </div>
+  </div>
+</section>
