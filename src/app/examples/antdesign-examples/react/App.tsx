@@ -8,7 +8,7 @@ import MyTimeline from "./MyTimeline"
 
 const ReactApp: FC<any> = () => {
   return (
-    <Flex gap={20}>
+    <Flex gap={20} wrap="wrap">
       <MyList />
       <MyForm />
       <MyUpload />
