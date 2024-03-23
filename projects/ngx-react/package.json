@@ -1,0 +1,31 @@
+{
+  "name": "ngx-react",
+  "version": "1.0.0",
+  "description": "Embed React components in Angular projects",
+  "keywords": [
+    "angular",
+    "react",
+    "react-components"
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngeenx/ngx-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngeenx/ngx-react/issues"
+  },
+  "author": "Eyüp Erdoğan",
+  "contributors": [
+    "Eyüp Erdoğan <epsilonelittr@gmail.com>"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
