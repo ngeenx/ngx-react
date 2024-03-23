@@ -1,6 +1,13 @@
 {
   "name": "ngx-react-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Embed React components in Angular projects",
+  "keywords": [
+    "angular",
+    "react",
+    "react-components"
+  ],
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +16,18 @@
     "test": "ng test",
     "prettier": "prettier --write \"./projects/**/*.{js,ts}\""
   },
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngeenx/ngx-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngeenx/ngx-react/issues"
+  },
+  "author": "Eyüp Erdoğan",
+  "contributors": [
+    "Eyüp Erdoğan <epsilonelittr@gmail.com>"
+  ],
   "dependencies": {
     "@angular/animations": "^17.3.0",
     "@angular/common": "^17.3.0",
