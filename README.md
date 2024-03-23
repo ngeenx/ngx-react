@@ -19,6 +19,9 @@ NPM
 npm i react react-dom @ngeenx/ngx-react
 ```
 
+> [!NOTE]
+> Addionaly, you can install `@types/react` and `@types/react-dom` for TypeScript support.
+
 ## 🚀 Usage
 
 ### 1. Import React Directive
