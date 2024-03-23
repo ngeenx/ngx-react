@@ -5,6 +5,8 @@ This simple Angular library integrates React components into Angular application
 > [!WARNING]
 > This package is experimental. There may be possible performance problems, memory leaks and similar problems. It is your responsibility to use it.
 
+## [Play on StackBlitz ⚡️](https://stackblitz.com/~/github.com/ngeenx/ngx-react)
+
 ## 📦 Installation
 
 Please install with peer dependencies `react` and `react-dom` using your favorite package manager.
