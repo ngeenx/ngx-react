@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+html,
+body {
+  height: 100%;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  padding: 5px 25px 25px 25px;
+  margin: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #2a5ea5;
+  }
+
+  .environments {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+
+    .base-environment {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid #ccc;
+      width: 100%;
+      padding: 0px 20px 20px 20px;
+      border-radius: 10px;
+
+      &:hover {
+        border-width: 3px;
+      }
+    }
+
+    .react-environment {
+      @extend .base-environment;
+
+      border-color: #66dcfa;
+    }
+
+    .angular-environment {
+      @extend .base-environment;
+
+      border-color: #f00357;
+    }
+  }
+}
