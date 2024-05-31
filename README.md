@@ -54,6 +54,7 @@ import { ReactComponentDirective } from '@ngeenx/ngx-react';
 
 Add the following to your `tsconfig.json` file to allow importing `.tsx` files in Angular Project.
 
+<!-- TODO: update jsx to react-jsx -->
 ```json
 {
   "compilerOptions": {
