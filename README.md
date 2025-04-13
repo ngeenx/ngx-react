@@ -11,7 +11,7 @@ This simple Angular library integrates React components into Angular application
 
 Please install with peer dependencies `react` and `react-dom` using your favorite package manager.
 
-### Compatible Versions
+## 🆚 Version Compatibility
 
 | Package Version | Angular Version | React Version | React DOM Version |
 |---------|---------|---------|---------|
