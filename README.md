@@ -13,10 +13,10 @@ Please install with peer dependencies `react` and `react-dom` using your favorit
 
 ### Compatible Versions
 
-| Package Version | Angular Version |
-|---------|---------|
-| 2.x.x | 18.x.x |
-| 1.x.x | 17.x.x |
+| Package Version | Angular Version | React Version | React DOM Version |
+|---------|---------|---------|---------|
+| 2.x.x | 18.x.x | ^18.3.x | ^18.3.x |
+| 1.x.x | 17.x.x | ^18.2.x | ^18.2.x |
 
 PNPM
 
